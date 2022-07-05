@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background: linear-gradient(45deg, rgb(35, 34, 102), rgb(0, 238, 255));
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+div.container{
+    background-color: rgba(255, 255, 255, 0.267);
+    min-height: 45vh;
+    min-width: 30vw;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+h1{
+    margin: 2rem;
+    letter-spacing: 3px;
+    font-size: 3rem;
+
+}
+span#valor{
+    margin: 2rem;
+    font-size: 5rem;
+}
+div.botoes{
+    margin: 2rem;
+    letter-spacing: 20px;
+
+}
+button{
+height: 2rem;
+width: 6rem;
+border-radius: 20px;
+border: none;
+letter-spacing: 1px;
+background-color: #ffff;
+font-weight: bolder;
+color:rgba(3, 0, 0, 0.63);
+transition: 0.3 ease;
+cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.521);
+    color: black;
+}
+div.footer{
+   display:flex;
+   align-self: flex-end;
+   position: fixed;
+   align-items: center;
+   margin: 2rem;
+   font-style: italic;
+   
+    
+
+
+}
+
+@media only screen and (min-width: 280px) and (max-width:900px) {
+    h1{
+        font-size: 2.5rem;
+}
+div.container{
+    height: 60vh;
+    width: 90vw;
+    border-radius: 50px;
+   
+    
+   
+}
+div.botoes{
+    margin: auto;
+    display: block;
+    letter-spacing: 0;
+
+}
+button{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 20px;
+    border: none;
+    letter-spacing: 0;
+    font-size: 12px;
+    
+    
+    
+    }
+    span#valor{
+        margin: 1rem;
+        font-size: 5rem;
+}
+div.footer{
+    margin: 0;
+}
+}
+@media only screen and (min-width: 390px) {
+    h1{
+        font-size: 3rem;
+}
+div.container{
+    height: 50vh;
+    width: 90vw;
+    border-radius: 50px;
+   
+    
+   
+}
+div.botoes{
+    padding: 2rem;
+    display: block;
+    letter-spacing: 5px;
+
+}
+button{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 20px;
+    border: none;
+    letter-spacing: 0;
+    font-size: 12px;
+    
+    
+    
+    }
+    span#valor{
+        margin: 1rem;
+        font-size: 5rem;
+}
+div.footer{
+    margin: auto;
+}
+}
+
+@media only screen and (min-width: 414px) and (max-width:666px){
+    h1{
+        font-size: 3rem;
+}
+div.container{
+    height: 50vh;
+    width: 90vw;
+    border-radius: 50px;
+   
+    
+   
+}
+div.botoes{
+    padding: 3rem;
+    display: block;
+    letter-spacing: 1rem;
+
+}
+button{
+    height: 2rem;
+    width: 3.9rem;
+    border-radius: 20px;
+    border: none;
+    letter-spacing: 0;
+    font-size: 12px;
+    
+    
+    
+    }
+    span#valor{
+        margin: 1rem;
+        font-size: 5rem;
+}
+div.footer{
+    margin: auto;
+}
+}
+
+/* ====================== Iphone SE ===============================*/
+@media only screen and (min-width: 540px) and (max-width: 915px){
+    h1{
+        font-size: auto;
+        margin: 0;
+}
+div.container{
+    height: auto;
+    width: auto;
+    border-radius: 50px;
+   
+    
+   
+}
+div.botoes{
+    padding: auto;
+    display: block;
+    letter-spacing: 10px;
+    margin: auto;
+
+}
+button{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 20px;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 12px;
+    
+    
+    
+    }
+    span#valor{
+        margin: 1rem;
+        font-size: 5rem;
+}
+div.footer{
+    margin: auto;
+}
+}
+@media only screen and (min-width: 916px) and (max-width:2560px){
+    h1{
+        font-size: 3rem;
+}
+div.container{
+    height: auto;
+    width: auto;
+    border-radius: 50px;
+   
+    
+   
+}
+div.botoes{
+    padding: 3rem;
+    display: block;
+    letter-spacing: 1rem;
+
+}
+button{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 20px;
+    border: none;
+    letter-spacing: 0;
+    font-size: 12px;
+    
+    
+    
+    }
+    span#valor{
+        margin: 1rem;
+        font-size: 5rem;
+}
+div.footer{
+    margin: auto;
+}
+}
+
+
